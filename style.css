@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Prompt:wght@300&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+    
+}
+/* banner */
+#banner{
+    background-color: #6B76FF;
+    padding: 150px;
+}
+.logo{
+    text-align: center;
+    padding: 0%;
+}
+.heading-1{
+    font-weight: 900;
+    font-size: 70px;
+    color: #dd691b;
+    letter-spacing: 0.1pc;
+}
+.head{
+    margin-top: 0%;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.4);
+    /* border: 1px solid #45496980; */
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.content-p{
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.social-btn{
+    text-align: center;
+    padding: 20px;
+}
+.twitter{
+    padding: 25px 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+
+}
+.twit-img{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+}
+.dis-img{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+}
+/* creators */
+#creators{
+    background-color: #f18339;
+    padding: 50px;
+}
+.creator-img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.creator-h{
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    /* margin-top: 30px; */
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+.creator-name{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.instagram-logo{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* faq */
+#faq{
+    background-color: #b284be;
+    padding: 50px;
+}
+.faq-h{
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+.ques{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.answer{
+    background-color: #9966cc;
+    border-radius: 8px;   
+}
+.answer-p{
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;   
+}
+/* roadmap */
+#roadmap{
+    background-color: #ffb347;
+    padding: 50px;
+}
+.roadmap-h{
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+.phase-h{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.phase-content{
+    background-color: #F08300;
+    border-radius: 8px;   
+}
+.phase-p{
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;      
+}
+/* more */
+#more{
+    background-color: #6B76FF;
+    padding: 50px;   
+}
+.more-h{
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+.more-content{
+    /* padding: 20px; */
+    text-align: center;
+}
+.links{
+    color: rgb(202, 195, 195);
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+}
+.links:hover{
+    color: rgb(202, 195, 195);
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px){
+    /* banner */
+#banner{
+    padding: 30px;
+}
+.heading-1{
+    font-size: 30px;
+    letter-spacing: 0pc;
+}
+.content{
+    margin-top: 20px;
+}
+.content-p{
+    padding: 10px;
+    margin: 10px;
+}
+.social-btn{
+    padding: 10px;
+}
+.twitter{
+    padding: 10px 7px;
+    margin-right:0px;
+}
+.twit-img{
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+}
+.dis-img{
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+}
+/* creators */
+#creators{
+    padding: 30px;
+}
+.creator-img{
+    height: 200px;
+    width: 200px;
+}
+.creator-h{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.instagram-logo{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+}
+/* faq */
+#faq{
+    padding: 30px;
+}
+.faq-h{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.answer-p{
+    padding: 10px;
+    margin: 0px;
+}
+/* roadmap */
+#roadmap{
+    padding: 30px;
+}
+.roadmap-h{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.phase-p{
+    padding: 10px;
+    margin: 0px;
+}
+/* more */
+#more{
+    background-color: #6B76FF;
+    padding: 50px;   
+}
+.more-h{
+    font-size: 30px;
+}
+.links{
+    font-size: 20px;
+}
+.links:hover{
+    font-size: 20px;
+}
+}
